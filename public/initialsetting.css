@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/*css初期化*/
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  list-style-type: none;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.7;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-weight: normal;
+}
+
+a {
+  font-size: 1rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+select {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 全共通 */
+
+.body-wrapper {
+  width: auto;
+}
+
+.main-wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .main-wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+}

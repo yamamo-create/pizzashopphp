@@ -1,0 +1,32 @@
+[
+    {
+        "id": 4,
+        "name": "いちごピザ",
+        "price": 500,
+        "imagename": "250a87847a572bec55f8fc19f7a67e8c.png",
+        "detail": "芳醇いちごジャムのいちごピザ",
+        "created_at": "2026-06-14 08:53:09",
+        "updated_at": "2026-06-14 08:53:09",
+        "deleted_at": null
+    },
+    {
+        "id": 5,
+        "name": "ブルーベリーピザ",
+        "price": 600,
+        "imagename": "ad8cf81c9ce7031022d51b74b9a626ca.png",
+        "detail": "甘さ控えめのブルーベリーピザ",
+        "created_at": "2026-06-14 08:53:42",
+        "updated_at": "2026-06-14 08:53:42",
+        "deleted_at": null
+    },
+    {
+        "id": 6,
+        "name": "アップルピザ",
+        "price": 500,
+        "imagename": "c6745ce6b3c117bc5ae8c38362bce63c.png",
+        "detail": "角切りリンゴのアップルピザ",
+        "created_at": "2026-06-14 08:54:14",
+        "updated_at": "2026-06-14 08:54:14",
+        "deleted_at": null
+    }
+]

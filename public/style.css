@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+.main-wrapper {
+  padding: 10px;
+}
+
+main section {
+  padding: 20px 0;
+}
+
+main article {
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: white;
+  padding: 2px;
+  background-color: darkgoldenrod;
+}
+
+.g-menu,
+.d-menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.g-menu article,
+.d-menu article {
+  width: 45%;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px black solid; */
+}
+
+.g-menu article div:nth-child(1),
+.d-menu article div:nth-child(1) {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.g-menu article div:nth-child(2),
+.d-menu article div:nth-child(2) {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.g-menu article div:nth-child(2) ul,
+.d-menu article div:nth-child(2) ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.g-menu article div:nth-child(2) ul li,
+.d-menu article div:nth-child(2) ul li {
+  line-height: 1.5;
+  padding-left: 10px;
+}
+
+.g-menu article div:nth-child(2) ul li:nth-child(2),
+.d-menu article div:nth-child(2) ul li:nth-child(2) {
+  text-align: end;
+}
+
+.g-menu article div:nth-child(3),
+.d-menu article div:nth-child(3) {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bgcolor {
+  background-color: lightgoldenrodyellow;
+}
+
+input {
+  display: inline-block;
+  border: 1px gray solid;
+  font-size: 1.1rem;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+/* 共通ボタン */
+
+.button {
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 1rem;
+  color: white;
+  background-color: darkgoldenrod;
+  box-shadow: 0px 2px gray;
+  border-radius: 5px;
+}
+
+.button:active {
+  padding: 5px;
+  margin-left: 5px;
+
+  font-size: 1rem;
+  color: white;
+  background-color: darkgoldenrod;
+  box-shadow: none;
+  border-radius: 5px;
+  transform: translateY(2px);
+}
+
+.color-red {
+  color: red;
+}
+
+/* 共通ボタン ここまで*/
+
+@media screen and (max-width: 768px) {
+  .g-menu,
+  .d-menu {
+    justify-content: center;
+  }
+
+  .g-menu article,
+  .d-menu article {
+    width: 95%;
+    /* border: 1px black solid; */
+  }
+}

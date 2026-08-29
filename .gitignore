@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Composer
+/vendor/
+
+# Uploads
+/public/img/
+/json/
+/storage/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# prettier
+.prettierignore

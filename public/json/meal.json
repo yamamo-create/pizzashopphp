@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "マルゲリータ",
+        "price": 700,
+        "imagename": "67eaa9bbd258698c4a62d325c7b25a9a.png",
+        "detail": "濃厚なミートソース定番のマルガリータ",
+        "created_at": "2026-06-14 08:51:03",
+        "updated_at": "2026-06-14 08:51:03",
+        "deleted_at": null
+    },
+    {
+        "id": 2,
+        "name": "ベーコンポテトピザ",
+        "price": 900,
+        "imagename": "e5123b36cb1ff798507edc3f8ea3560f.png",
+        "detail": "厚切りベーコンのベーコンポテトピザ",
+        "created_at": "2026-06-14 08:51:45",
+        "updated_at": "2026-06-14 08:51:45",
+        "deleted_at": null
+    },
+    {
+        "id": 3,
+        "name": "ツナマヨコーンピザ",
+        "price": 800,
+        "imagename": "66a4d8b48ab9695ef42fe735595f6185.png",
+        "detail": "たっぷりツナマヨのツナマヨコーンピザ",
+        "created_at": "2026-06-14 08:52:24",
+        "updated_at": "2026-06-14 08:52:24",
+        "deleted_at": null
+    }
+]
