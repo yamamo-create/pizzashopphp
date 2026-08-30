@@ -20,6 +20,10 @@ View       = 画面表示
 Controller = Model、Viewに指示を出す
 </pre>
 
+## 制作期間
+
+2026年3月〜2026年8月（約6か月）<br>
+
 ## デモ画像
 
 画像は「chatGPT」により作成。<br>
